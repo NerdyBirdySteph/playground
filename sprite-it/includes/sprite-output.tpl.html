@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite IT</title>
+    <link href="../../main.css" rel="stylesheet" />
+    <style>
+    .sprite {
+        width: [@intSpriteWidth]px;
+        height: [@intSpriteHeight]px;
+        background: url('sprite.png') no-repeat 0 0;
+    }
+    </style>
+</head>
+<body>
+    <h1>Sprite it!</h1>
+    <h2>Your generated sprite</h2>
+    <div id="sprite" class="sprite" data-css-class="[@strSpriteName]">
+        [@strSpriteImages]
+    </div>
+    <pre class="code" id="sprite-css">Hint: Click on an image to get the CSS for using it</pre>
+    <script id="sprite-css-tpl" type="text/css">.{{sprite-class}}.{{img-class}} {
+    background: url('sprite.png') no-repeat -{{img-x}}px -{{img-y}}px;
+    width: {{img-width}}px;
+    height: {{img-height}}px;
+}</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../../js/mustache.js"></script>
+    <script>
+    var strSpriteClass = $('#sprite').attr('data-css-class')
+        , objCodeContainer = $('#sprite-css')
+        , strCssTemplate = $('#sprite-css-tpl').html();
+        console.log(strCssTemplate);
+    $('.sprite>.sprite-img').click(function() {
+        var strName = $(this).attr('data-name')
+            , intX = $(this).attr('data-x')
+            , intY = $(this).attr('data-y')
+            , intWidth = $(this).attr('data-width')
+            , intHeight = $(this).attr('data-height')
+            , strCss = Mustache.render(strCssTemplate, {
+            'sprite-class': strSpriteClass
+            , 'img-class': strName
+            , 'img-x': intX
+            , 'img-y': intY
+            , 'img-width': intWidth
+            , 'img-height': intHeight
+        });
+            console.log(strCss);
+        $(objCodeContainer).html(strCss);
+    });
+    </script>
+</body>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta http-equiv="Content-Type" content="charset=utf-8" />
+    <base href="http://localhost/playground/slide-n-navigate/" >
+    <title>Slide-n-Navigate</title>
+</head>
+
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100%;
+    font-family: sans-serif;
+    background: red;
+}
+#viewport {
+    min-height: 100%;
+    /* Sættes dynamisk med javascript når window ændres: */
+    min-height: 550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: blue;
+}
+#navigation {
+    min-height: 100%;
+    width: 250px;
+    overflow: hidden;
+    position: absolute;
+    left: -250px;
+    -webkit-transition: left 250ms linear;
+    transition: left 250ms linear;
+    background: green;
+}
+.showNav #navigation {
+    left: 0;
+}
+#content {
+    position: relative;
+    left: 0;
+    -webkit-transition: left 250ms linear;
+    transition: left 250ms linear;
+    background: yellow;
+}
+.showNav #content {
+    left: 250px;
+}
+header, article, footer, p {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    height: 50px;
+    width: 100%;
+    background: purple;
+}
+#navActivator {
+    cursor: pointer;
+}
+article {
+    min-height: 500px; /* #viewport dynamic height - height of header */
+    position: relative;
+    z-index: 0;
+    background: navy;
+    color: #eee;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background: orange;
+}
+.box {
+
+}
+</style>
+
+<body>
+    <div id="viewport">
+        <div id="navigation"></div>
+        <div id="content">
+            <header>
+                <img src="nav.png" id="navActivator">
+            </header>
+
+            <article>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae venenatis est. Cras fringilla, risus sed congue semper, tortor metus tincidunt dolor, at dapibus sem enim vitae erat. Donec commodo et sapien vitae tempor. Sed lobortis viverra lacinia. Pellentesque malesuada metus non nunc euismod, eu malesuada enim auctor. Donec mollis sem tellus, sed congue augue vulputate eget. In eu tincidunt lectus.</p>
+
+                    <p>Duis consequat hendrerit fermentum. Nam et dui augue. Cras eget tellus sed magna tincidunt convallis. Aenean condimentum molestie lorem. Proin dictum, massa eu bibendum luctus, ante magna molestie erat, vel convallis purus ipsum at leo. In arcu risus, hendrerit sit amet hendrerit a, vulputate consequat metus. Mauris et mi a odio interdum facilisis et non mi.</p>
+
+                    <p>Nam fringilla libero mi, vel euismod elit viverra eget. Pellentesque condimentum, purus sit amet eleifend porta, mauris magna semper est, at tempus urna erat vitae leo. Sed laoreet orci a lorem condimentum, ut fermentum felis porttitor. Sed laoreet facilisis purus, a aliquet ante adipiscing et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget purus sem. Mauris dictum velit sit amet placerat laoreet. Curabitur luctus ipsum vel tortor facilisis, at commodo urna pulvinar. Praesent eget diam sit amet felis sollicitudin viverra in nec sapien. Fusce elementum odio dui, eu interdum dui vehicula at. Phasellus viverra quam eu nulla hendrerit tempus. In adipiscing a dui quis rutrum. Mauris neque arcu, iaculis eget lacinia eu, vestibulum ut quam.</p>
+                </div>
+            </article>
+
+            <footer>
+                footer
+            </footer>
+        </div>
+    </div>
+</body>
+
+<script>
+    var addEvent = (function () {
+
+        if(window.addEventListener) {
+            return function (el, ev, fn) {
+                el.addEventListener(ev, fn, false);
+            };
+        }
+        else if(window.attachEvent) {
+            return function (el, ev, fn) {
+                el.attachEvent('on' + ev, fn);
+            };
+        }
+        else {
+            return function (el, ev, fn) {
+                el['on' + ev] = fn;
+            };
+        }
+
+    })();
+
+
+    var fcnToggleNav = function(e) {
+        if('showNav' == document.body.getAttribute('class')) {
+            document.body.removeAttribute('class');
+        }
+        else {
+            document.body.setAttribute('class', 'showNav');
+        }
+        e.preventDefault();
+    };
+
+    var objNavActivator = document.getElementById('navActivator');
+    if(null != objNavActivator) {
+        addEvent(objNavActivator, 'click', fcnToggleNav);
+    }
+</script>
+
+</html>

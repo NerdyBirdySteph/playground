@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Word counter</title>
+    <style>
+        textarea {
+            resize: none;
+        }
+        .word-counter {
+            display: inline-block;
+            padding: 3px 5px;
+            border-radius: 10px;
+            background: #ccc;
+            
+        }
+        .word-counter.error {
+            background: #ed5555;
+        }
+        .word-counter.valid {
+            background: #69bf56;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Word counter</h1>
+    <p>Start entering text to see the magic!</p>
+    <textarea rows="20" cols="60" data-counter="true" data-min-words="5"></textarea>
+
+    <script src="eventFunctions.js"></script>
+    <script>
+        Array.prototype.clean = function(mixDelete) {
+            for(var i = 0; i < this.length; i += 1) {
+                if(mixDelete == this[i]) {
+                    this.splice(i, 1);
+                    i -= 1;
+                }
+            }
+            return this;
+        };
+
+        var clsCounter = function(objTextarea, intMinWords) {
+
+            var self                    = this,
+                fcnCalculateWordCount;
+            self.objTextarea            = objTextarea;
+            self.objCounter             = null;
+            self.objCounterCurrentWords = null;
+            self.intCurrentWordCount    = 0;
+            self.intMinWords            = intMinWords;
+            if('undefined' === typeof self.intMinWords) {
+                self.intMinWords = 100;
+            }
+
+            fcnCalculateWordCount = function() {
+                var strEnteredText = self.objTextarea.value,
+                    arrWords = strEnteredText.split(' ');
+                // Remove blank words, occurring when several following spaces have been used:
+                arrWords.clean('');
+
+                self.intCurrentWordCount = arrWords.length;
+                self.updateCounter();
+            };
+
+            clsCounter.prototype.updateCounter = function() {
+                console.log(self.objCounter);
+                console.log(self.objCounterCurrentWords);
+                self.objCounterCurrentWords.innerHTML = self.intCurrentWordCount;
+                if(self.intCurrentWordCount >= self.intMinWords) {
+                    self.objCounter.setAttribute('class', 'word-counter valid');
+                }
+                else if(self.intCurrentWordCount > 0) {
+                    self.objCounter.setAttribute('class', 'word-counter error');
+                }
+                else {
+                    self.objCounter.setAttribute('class', 'word-counter');
+                }
+            };
+
+            clsCounter.prototype.init = function() {
+                // Build counter
+                var objTempCounter, 
+                    objTempCounterCurrentWords;
+                objTempCounter = document.createElement('div');
+                objTempCounter.setAttribute('class', 'word-counter');
+                objTempCounter.innerHTML = '/' + self.intMinWords;
+
+                objTempCounterCurrentWords = document.createElement('span');
+                objTempCounterCurrentWords.innerHTML = 0;
+                objTempCounter.appendChild(objTempCounterCurrentWords);
+                self.objCounterCurrentWords = objTempCounter.insertBefore(objTempCounterCurrentWords, objTempCounter.firstChild);
+
+                self.objCounter = self.objTextarea.parentNode.insertBefore(objTempCounter, self.objTextarea.nextSibling);
+
+                // Apply event-listeners to textarea:
+                addEvent(self.objTextarea, 'keyup', fcnCalculateWordCount);
+                addEvent(self.objTextarea, 'blur', fcnCalculateWordCount);
+            };
+
+            self.init();
+
+        };
+
+        var arrCounterTextareas     = document.getElementsByTagName('textarea'),
+            intTotalElements        = arrCounterTextareas.length,
+            intCurrentIndex         = 0,
+            arrCounterObjects       = [],
+            objCurrentTextarea,
+            intDefinedMinWords,
+            objTemp;
+
+        while(intCurrentIndex < intTotalElements) {
+            objCurrentTextarea = arrCounterTextareas[intCurrentIndex];
+            if(objCurrentTextarea.hasAttribute('data-counter')) {
+                if(objCurrentTextarea.hasAttribute('data-min-words')) {
+                    intDefinedMinWords = parseInt(objCurrentTextarea.getAttribute('data-min-words'), 10);
+                    objTemp = new clsCounter(objCurrentTextarea, intDefinedMinWords);
+                }
+                else {
+                    objTemp = new clsCounter(objCurrentTextarea);
+                }
+                arrCounterObjects.push(objTemp);    
+            }
+            intCurrentIndex += 1;
+        }
+
+    </script>
+</body>

@@ -1,0 +1,102 @@
+body {
+    font-family: Sans-serif;
+    line-height: 150%;
+    font-size: 1em;
+    height: 100%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+img.right {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+img.left {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+img {
+    max-width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+td {
+    width: 50%;
+    text-align: center;
+}
+
+$loaderWidth: 128px;
+$loaderHeight: 128px;
+
+.loader-wrapper {
+    box-sizing: border-box;
+    display: inline-block;
+    width: $loaderWidth;
+    height: $loaderHeight;
+}
+.loader-wrapper>div {
+    width: 100%;
+    height: 100%;
+}
+
+$loader1_circleSize: 40px;
+#loader-1 {
+    border: 1px solid black;
+    position: relative;
+    transition: -webkit-transform 1s linear;
+    -webkit-transform-style: preserve-3D;
+}
+#loader-1:hover {
+    /*-webkit-transform: rotate(360deg);*/
+}
+
+@-webkit-keyframes loader-1-rotate {
+    25% { opacity: 0.5; }
+    50% { opacity: 0; }
+    75% { opacity: 0.5 }
+}
+
+#loader-1>span {
+    /*-webkit-transform-origin: 64px 64px;*/
+    position: absolute;
+    display: block;
+    width: $loader1_circleSize;
+    height: $loader1_circleSize;
+    border-radius: $loader1_circleSize;
+    //-webkit-animation: loader-1-rotate 2s infinite;
+}
+
+$i: 1;
+$loader1_curX: 0;
+$loader1_curY: 0;
+$loader1_xDir: 1;
+$loader1_yDir: 0;
+@while $i <= 4 {
+    $color: 360 / 4 * $i;
+    .loader-1-dot-#{$i} {
+        background-color: hsl($color,100%,50%);
+        -webkit-transform: translate($loader1_curX, $loader1_curY);
+    }
+    $i: $i + 1;
+    $loader1_curX: $loader1_curX + (($loaderWidth - $loader1_circleSize) * $loader1_xDir);
+    $loader1_curY: $loader1_curY + (($loaderHeight - $loader1_circleSize) * $loader1_yDir);
+    $loader1_xDir_old: $loader1_xDir;
+    @if ($loader1_yDir >= 0) { 
+        $loader1_xDir: $loader1_xDir - 1;
+    } 
+    @else { 
+        $loader1_xDir: $loader1_xDir + 1;
+    }
+    @if ($loader1_xDir_old <= 0) { 
+        $loader1_yDir: $loader1_yDir - 1;
+    } 
+    @else { 
+        $loader1_yDir: $loader1_yDir + 1;
+    }
+}

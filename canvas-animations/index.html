@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <base href="http://localhost/playground/canvas-animation/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Animation</title>
+    <style>
+    canvas {
+    }
+    </style>
+</head>
+<body>
+    <canvas id="canvas1" height="700" width="700"></canvas>
+<script>
+var ctx = document.getElementById('canvas1').getContext('2d');
+ctx.strokeStyle = "rgba(200,0,150,0.5)";
+ctx.translate(350,250);
+ctx.lineWidth = 1;
+
+var fcnRotateRectangle = function(angle, color) {
+	ctx.strokeStyle = "rgba(" + color + ",0.5)";
+	ctx.rotate(angle / 360 * Math.PI);
+	ctx.strokeRect(0,0,50,50);
+}
+
+ctx.fillStyle = "rgba(0,0,0,1)";
+ctx.fillRect(0,0,3,3);
+fcnRotateRectangle(0, '250,0,0');
+fcnRotateRectangle(45, '0,250,0');
+fcnRotateRectangle(90, '0,0,250');
+fcnRotateRectangle(135, '0,200,200');
+fcnRotateRectangle(180, '200,200,0');
+
+var intCurX = 0;
+var intCurY = 0;
+
+var intRadius = 50;
+
+var intCurRotation = 0;
+var intRotationStep = 1;
+
+var intMoveStep = 10;
+
+var intMaxDraws = 150;
+var intCurDraw = 0;
+var fcnDraw = function() {
+	intCurDraw += 1;
+
+	//ctx.beginPath();
+	// X, Y, Radius, StartAngle, endAngle, antiClockwise
+	//ctx.arc(350, 350, intRadius, 0, Math.PI*2, false); 
+	//ctx.stroke();
+	ctx.rotate(intCurRotation * Math.PI / 180);
+	ctx.strokeRect(0, 0, intRadius, intRadius);
+
+	//ctx.translate(intCurX * 2, intCurY * 2);
+	intCurRotation += intRotationStep;
+	if(intCurRotation > 360) {
+		return;
+	}
+	if(intCurDraw < intMaxDraws) {
+		window.requestAnimationFrame(fcnDraw);
+	}
+}
+
+//window.requestAnimationFrame(fcnDraw);
+</script>
+</body>

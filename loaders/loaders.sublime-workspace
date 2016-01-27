@@ -1,0 +1,872 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"remove",
+				"removeIndex"
+			],
+			[
+				"testMedi",
+				"testMediaQueryLists"
+			],
+			[
+				"current",
+				"current-menu-item"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1119,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 1988,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 2088,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indn",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"ftp br",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"brow",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"brows",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Stephanie/Drive/Localhost/playground/loaders/sass/config.rb",
+		"/D/Stephanie/Drive/Localhost/playground/loaders/css/main.sass",
+		"/D/Stephanie/Drive/Localhost/playground/loaders/loaders.sublime-workspace",
+		"/D/Stephanie/Drive/Localhost/playground/loaders/loaders.sublime-project",
+		"/D/Stephanie/Drive/Localhost/playground/Playground.sublime-project",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/styleguide.sublime-project",
+		"/D/Stephanie/Drive/Localhost/playground/grunt-test/grunt-test.sublime-project",
+		"/D/Stephanie/Drive/Programmer/Sublime Text 2/Data/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/D/Stephanie/Drive/Localhost/playground/base-template/index.php",
+		"/C/Users/Tech/Desktop/incorrect.html",
+		"/C/Users/Tech/Desktop/correct.html",
+		"/D/Stephanie/Drive/Localhost/bettingexpert-update-tables.sql",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/node_modules/grunt-kss/node_modules/kss/lib/kss.js",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/gruntfile.js",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/styleguide.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/main.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_input.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_main.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_list.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/styleguide-template/index.html",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/node_modules/grunt-kss/tasks/kss.js",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/node_modules/grunt-kss/node_modules/kss/lib/kss.js.bak",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/css/styleguide.md",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/package.json",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/css/styleguide.kss.css",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/config.rb",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/_base.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/node_modules/grunt-styledocco/tasks/styledocco.coffee",
+		"/C/Users/Tech/AppData/Roaming/npm/node_modules/styledocco/cli.js",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide//css/../sass/styleguide.md",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/styleguide_templates/index.html",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/styleguide_templates/public/kss.css",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/_base.md",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/styleguide.html.lsg",
+		"/C/Ruby200-x64-DevKit/config.yml",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/node_modules/grunt-styledocco/tasks/styledocco.coffee.bak",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_prices.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_address.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_calendar.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_comments.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_main.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_map.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_metaslider.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_user.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_widget-find-vej.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_widget-posts.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_widget-search.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_widget-text.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/modules/_widget.module.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/sass/_layout.scss",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/node_modules/grunt-contrib-sass/tasks/sass.js",
+		"/D/Stephanie/Drive/Localhost/glyphr/index.html",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/node_modules/grunt-contrib-concat/tasks/concat.js",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/README.md",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/css/main.css",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/styledocco/styledocco.js",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/styledocco/examples/styledocco/docs.html",
+		"/D/Stephanie/Drive/Programmer/Sublime Text 2/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/Stephanie/Drive/Programmer/Sublime Text 2/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/.gitignore",
+		"/D/Stephanie/Drive/Localhost/playground/styleguide/.git/config",
+		"/D/Stephanie/Drive/Programmer/Sublime Text 2/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/layout.css",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/widget.module.css",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/widget_text.module.css",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/widget_find-vej.module.css",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/style.css",
+		"/D/Stephanie/Drive/Localhost/playground/kss-php/example/includes/bootstrap.inc.php",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/soccerfan.cache.php",
+		"/C/Users/Tech/AppData/Local/Temp/fz3temp-1/142.include.cache.php",
+		"/C/Users/Tech/AppData/Local/Temp/Rar$DRa0.646/css/foundation.css",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/fonts/_fonts_fontello.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/main.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/header.php",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/_layout.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/modules/_main.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/modules/_widget-search.module.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/config.rb",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/modules/_metaslider.module.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/main.css",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/modules/_widget-text.module.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/modules/_widget_search.module.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/scripts/polyfills/css3-mediaqueries.js",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/scripts/polyfills/respond.js",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/style.css",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/_base.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/fonts/_main.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/_foundation.min.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/foundation.min.bak.05-02-2014.css",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/styles/sass/foundation.min.bak.css",
+		"/D/Stephanie/Drive/Localhost/bettingexpert/assets/sass/main.scss",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-config.php",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-content/themes/fighter/scripts/polyfills/html5shiv.js",
+		"/D/Stephanie/Downloads/nrrebrofighters.wordpress.2014-02-26.xml",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/wp-includes/cache.php",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/norrebro-fighters.sublime-workspace",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/index.php",
+		"/D/Stephanie/Drive/Localhost/norrebro-fighters/norrebro-fighters.sublime-project",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/header.php",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/functions.php",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/index.php",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/style.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/modules/list.module.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/main.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/base.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/fonts.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/layout.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/modules/metaslider.module.css",
+		"/D/Stephanie/Google Drev/Localhost/view/api/config/inflection.php",
+		"/C/Users/Tech/AppData/Local/Temp/Rar$DRa0.829/stylesheet.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/fonts_daniel.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/fonts_desyrel.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/styles/fonts_fontello.css",
+		"/C/Users/Tech/AppData/Local/Temp/Rar$DRa0.522/stylesheet.css",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/footer.php",
+		"/D/Stephanie/Google Drev/Localhost/norrebro-fighters-wp/wp-content/themes/fighter/sidebar.php",
+		"/Users/Steph/Localhost/nørrebro-fighters/wp-content/themes/fighter/sidebar.php",
+		"/Users/Steph/Localhost/nørrebro-fighters/wp-content/themes/fighter/styles/layout.css",
+		"/Users/Steph/Localhost/nørrebro-fighters/wp-content/themes/fighter/styles/main.css",
+		"/Users/Steph/Localhost/nørrebro-fighters/wp-content/themes/fighter/footer.php",
+		"/Users/Steph/Localhost/nørrebro-fighters/wp-content/themes/fighter/style.css",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/Steph/Downloads/holdplan.html",
+		"/Users/Steph/Library/Application Support/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/Steph/Library/Application Support/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/Steph/Desktop/Nørrebro fighters/norrebro-fighters.sublime-workspace"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Stephanie\\Drive\\Localhost\\playground\\styleguide\\\\node_modules\\grunt",
+			"D:\\Stephanie\\Drive\\Localhost\\playground\\styleguide\\node_modules\\grunt-styledocco",
+			"<project>",
+			"D:\\Stephanie\\Drive\\Localhost\\playground\\styleguide\\node_modules\\grunt-styledocco",
+			"D:\\Stephanie\\Drive\\Localhost\\playground\\styleguide\\node_modules\\styledocco",
+			"D:\\Stephanie\\Drive\\Localhost\\norrebro-fighters\\wp-content\\themes\\fighter\\styles\\sass",
+			"D:\\Stephanie\\Drive\\Localhost\\norrebro-fighters\\wp-content\\themes\\fighter",
+			"D:\\Stephanie\\Drive\\Localhost\\norrebro-fighters\\wp-content\\themes\\fighter\\styles\\sass",
+			"D:\\Stephanie\\Drive\\Localhost\\norrebro-fighters\\",
+			"D:\\Stephanie\\Drive\\Localhost\\norrebro-fighters\\wp-content\\themes\\fighter\\styles\\sass",
+			"D:\\Stephanie\\Drive\\Localhost\\norrebro-fighters\\",
+			"D:\\Stephanie\\Google Drev\\Localhost\\view"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n.loader-1-dot-2 {\n    background-color: hsl(255,100%,50%);\n    -webkit-transform: translate(100%, 100%);\n}",
+			"50px",
+			">\n",
+			";\n",
+			"main-container",
+			"pushed-elem",
+			"<!-- AUTHOR FOR SMALL SCREENS -->",
+			"<!-- AUTHOR FOR SMALL SCREENS -->\n                                        <div class=\"author large-3 small-12 column padding-reset hide-for-large\">\n                                            <a href=\"http://feature-betbehind.bettingexpert.com/user/profile/soccerfan\" class=\"author-rating left is-small\" data-rating=\"4\">\n                                                <abbr title=\"Rating 4/5\">\n                                                    <div class=\"author-img\">\n                                                        <img class=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" data-src=\"http://feature-betbehind.bettingexpert.com/assets/images/system/icons/user-icon.png\" alt=\"soccerfan\"/>\n                                                    </div>\n                                                </abbr>\n                                            </a>\n                                            <div class=\"author-name\">\n                                                <a href=\"http://feature-betbehind.bettingexpert.com/user/profile/soccerfan\" class=\"ellipsis\">soccerfan</a><span title=\"verified\" class=\"is-not-verified icon-not-verified\"></span>\n                                            </div>\n                                            <a href=\"http://feature-betbehind.bettingexpert.com/user/profile/soccerfan\" class=\"author-profit\" title=\"Yield\">\n                                                +2.00 %\n                                            </a>\n                                        </div>\n                                        <div class=\"tip large-9 small-12 column padding-reset dtstart\">\n                                            <span class=\"value-title\" title=\"\"></span>\n                                            <div title=\"unknown\" class=\"tip-result tip-result-unknown\">&nbsp;</div>\n                                            <div class=\"tip-match large-12 column\">\n                                                <a class=\"hide-for-small\" href=\"http://feature-betbehind.bettingexpert.com/tips/football/\">\n                                                    <span class=\"tip-icon tip-icon-sport-1\">&nbsp;</span>\n                                                </a>\n\n                                                <div class=\"tip-teams\">\n                                                    <a href=\"http://feature-betbehind.bettingexpert.com/tip/456399-havant-and-w.-maidenhead-u\" class=\"summary url\">Havant and W. vs Maidenhead U </a>\n                                                </div>\n                                                <div class=\"tip-league\">\n                                                    <a href=\"http://feature-betbehind.bettingexpert.com/tips/football/england/other\">Other - England</a>\n                                                    <a class=\"hide-for-large\" href=\"http://feature-betbehind.bettingexpert.com/tips/football/\">\n                                                        <span class=\"tip-icon tip-icon-sport-1\">&nbsp;</span>\n                                                    </a>\n                                                </div>\n                                            </div>\n                                            <div class=\"tip-info large-12 small-12 column\">\n                                                <div class=\"large-5 small-5 column padding-reset\">\n                                                    <span class=\"tip-selection has-icon\" title=\"1x2\">\n                                                        1\n                                                        <span class=\"tip-selection-icon scope-1\" title=\"Ordinary time\">&nbsp;</span>\n                                                    </span>\n                                                </div>\n                                                <div class=\"large-3 small-2 column text-center\" title=\"Odds\">\n                                                    1.95\n                                                </div>\n                                                <div class=\"large-4 column small-5 padding-reset\">\n                                                    <a href=\"http://feature-betbehind.bettingexpert.com/goto/bet3000\" target=\"_blank\" rel=\"nofollow\" title=\"Bet on this at Bet3000\">\n                                                        <img class=\"tip-bookmaker right hide-for-small lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" data-src=\"/assets/images/system/affiliates/logos/200x60/379.png\" alt=\"Bet3000\" width=\"100\" height=\"30\">\n                                                        <span class=\"hide-for-large\">Bet3000</span>\n                                                    </a>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <!-- AUTHOR FOR LARGE SCREENS -->\n                                        <div class=\"author large-3 small-12 column padding-reset hide-for-small\">\n                                            <a href=\"http://feature-betbehind.bettingexpert.com/user/profile/soccerfan\" class=\"author-rating left\" data-rating=\"4\">\n                                                <abbr title=\"Rating 4/5\">\n                                                    <div class=\"author-img\">\n                                                        <img class=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" data-src=\"http://feature-betbehind.bettingexpert.com/assets/images/system/icons/user-icon.png\" alt=\"soccerfan\" />\n                                                    </div>\n                                                </abbr>\n                                            </a>\n                                            <a href=\"http://feature-betbehind.bettingexpert.com/user/profile/soccerfan\" class=\"author-profit left\" title=\"Yield\">\n                                                +2.00 %\n                                            </a>\n                                            <div class=\"clear\">\n                                                <div class=\"author-name\">\n                                                    <a href=\"http://feature-betbehind.bettingexpert.com/user/profile/soccerfan\" class=\"ellipsis\">soccerfan</a><span title=\"verified\" class=\"is-not-verified icon-not-verified\"></span>\n                                                </div>\n                                            </div>\n                                        </div>",
+			"<!-- AUTHOR FOR SMALL SCREENS -->",
+			"!",
+			" *",
+			");\n",
+			"hasPrefi",
+			"hasPrefix",
+			"isAuthor",
+			"isDeprecated",
+			"createModifiers",
+			"processMarkup",
+			"// ",
+			"styledocco",
+			">\n",
+			"pagespeed",
+			"\\",
+			"\n		{\n			\"path\": \"/\",\n            \"name\": \"Styleguide\"\n		}",
+			"'],\n",
+			"  ",
+			"',\n",
+			"pagespeed",
+			"']\n",
+			")\n",
+			"'\n",
+			"])\n",
+			"files",
+			"log",
+			"verbose",
+			"##",
+			"	",
+			"');\n",
+			"_layout",
+			"_base",
+			"',\n",
+			"styledocco",
+			"');\n",
+			"styledocs",
+			"');\n",
+			"\n            dist: {\n                options: {\n                    style: 'compressed',\n                },\n                files: {\n                    'css/main.css': 'sass/main.scss',\n                }\n            }",
+			", ",
+			"	",
+			", ",
+			"oneliner",
+			"images/frame",
+			".metaslider",
+			"pagespeed",
+			"'",
+			"Metrophobic",
+			"Coda",
+			"Anton",
+			"Ruda",
+			"\");\n",
+			"sidebar_1",
+			"../../images",
+			"console.",
+			"url('styles/main.css')",
+			"init",
+			"test",
+			"createMeter",
+			"testMediaQueryLists",
+			"{\n",
+			"nav ",
+			"only screen",
+			"nav ",
+			"nav",
+			"'",
+			"modules/",
+			".css",
+			"'",
+			"css'",
+			"url(",
+			"@import",
+			"url(",
+			".dk",
+			"nørrebro-fighters",
+			"config",
+			";\n",
+			"salt",
+			"vida",
+			"allez-hop",
+			"daniel-",
+			"font/",
+			"font",
+			"desyrel",
+			"');\n",
+			";\n",
+			"\n@import url('modules/list.module.css');",
+			"css",
+			"menu_custom_attributes",
+			"menu_custom_classes",
+			"my_css_attributes_filter",
+			"_id",
+			"\n      'main-navigation' => __( 'Header Menu' )",
+			"\n	<link rel=\"stylesheet\" href=\"<?php bloginfo('template_url'); ?>/css/foundation.css\">",
+			">-<",
+			"\n.calendar>thead>tr>th,\n.calendar>thead>tr>td,\n.calendar>tbody>tr>th,\n.calendar>tbody>tr>td {",
+			",\n",
+			">\n",
+			"\n				<tr>\n					<td>-</td>",
+			"\n					<td>-</td>",
+			",\n",
+			"\n					<td>-</td>\n				</tr>",
+			"\n					<th scope=\"row\">20:00 - 21:00</th>",
+			"\n				<tr>\n					<th scope=\"row\">20:00 - 21:00</th>\n					<td>-</td>\n					<td>-</td>\n					<td>-</td>\n					<td>-</td>\n					<td>-</td>\n					<td>-</td>\n				</tr>",
+			"\n					<th scope=\"row\">19:00 - 20:00</th>",
+			"\n					<th scope=\"row\">18:00 - 19:00</th>",
+			"\n					<th scope=\"row\">17:00 - 18:00</th>",
+			"\n					<th scope=\"row\">16:00 - 17:00</th>",
+			"scope=\"row\"",
+			"-/td>",
+			"<th>",
+			"<th",
+			"th>",
+			">\n",
+			"Nyheder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../images",
+			"screen"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 1119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1023,
+								1023
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 1988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1432,
+								1432
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS3_Syntax/CSS3.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1368.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/main.scss",
+					"settings":
+					{
+						"buffer_size": 2088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1240,
+								1240
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 965.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.42355605889,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true
+}

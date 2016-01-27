@@ -1,0 +1,1 @@
+log('Hello from eventFunctions.js');
